@@ -17,3 +17,13 @@ AspNet Core (MVC) Solution ile Class Library .net olan
  KEY Ekleyerek Birinvil Anahtar tanimlandi.
 
 2-DataAccess: Concrete class tanimlama
+
+DATAACCESS Context class
+Context class : 1- DB yapilandirma baglanti stringi  2-DB yansitilacak olan Tablolari tutan class
+Sql Baglanti adresi ile 
+DbSet ile class adı ve Tablo Adı ismi -s takisi ile veriliyor.Sql e tablo sutunu olarak eklenecek.
+Migration: Entity Framework CodeFirst visual üzerinde oluşturulan sınıflar Sql de tablo olarak yansitilacak.
+Packege console içine : 
+1-DataAcces seçilip Bağnatı adres Context sınıfı mevcut.
+  Migraiton olusturma :  "add-migration mig1" 
+  Migraiton Çalıştırma :  "update-database"
