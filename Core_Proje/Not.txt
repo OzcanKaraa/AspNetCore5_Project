@@ -1,16 +1,19 @@
 ﻿4 Katman:
 ---------
-
 1-Entity Layer :Varliklar Skills About Education Property
-
 2-Data Access Layer ; Crud (Create Read Update Delete) Method
 					  N Tier katmanli Mimari -> Repository Design Pattern
-
 3-Busineess Layer : Validasyon Katman kosullar ekleme NotEmpty MaxChar Minchar
-
 4-Presentation Layer : Sunum Katmani Frontend Controller
-
 ---------------------------------------------------------------------------------------------------------
-
-Concrete : Class
+Entity Layer
+Concrete : Class tanimlama
 Absrtract :Interface
+--------------------------------------------------------------------------------------------------------
+AspNet Core (MVC) Solution ile Class Library .net olan 
+
+1-Entity Layer katmanında class ile tanımlamalar yaptık.
+ Tum klasorlere Entity framework core , Tool , Sqlserver ve Design paketleri yuklendi.
+ KEY Ekleyerek Birinvil Anahtar tanimlandi.
+
+2-DataAccess: Concrete class tanimlama
