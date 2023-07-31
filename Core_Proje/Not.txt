@@ -1,0 +1,13 @@
+﻿4 Katman:
+---------
+
+1-Entity Layer :Varliklar Skills About Education Property
+
+2-Data Access Layer ; Crud (Create Read Update Delete) Method
+					  N Tier katmanli Mimari -> Repository Design Pattern
+
+3-Busineess Layer : Validasyon Katman kosullar ekleme NotEmpty MaxChar Minchar
+
+4-Presentation Layer : Sunum Katmani Frontend Controller
+
+---------------------------------------------------------------------------------------------------------
