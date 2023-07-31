@@ -8,6 +8,9 @@ namespace EntityLayer.Concrete
 {
     public class Feature
     {
-        public int MyProperty { get; set; }
+        public int FeatureID { get; set; }
+        public string Header { get; set; }
+        public string Name { get; set; }
+        public string Title { get; set; }
     }
 }
