@@ -11,3 +11,6 @@
 4-Presentation Layer : Sunum Katmani Frontend Controller
 
 ---------------------------------------------------------------------------------------------------------
+
+Concrete : Class
+Absrtract :Interface
