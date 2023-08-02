@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Abstract;
+using DataAccessLayer.Abstract;
 using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -8,8 +9,15 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    internal class AbaoutManager : IAboutService
+    public class AboutManager : IAboutService
     {
+        IAboutDal _aboutDal;
+
+        public AboutManager(IAboutDal aboutDal)
+        {
+            _aboutDal = aboutDal;
+        }
+
         public About GeyByID(int id)
         {
             throw new NotImplementedException();
@@ -17,22 +25,27 @@ namespace BusinessLayer.Concrete
 
         public void TAdd(About t)
         {
-            throw new NotImplementedException();
+            _aboutDal.Insert(t);
         }
 
         public void TDelete(About t)
         {
-            throw new NotImplementedException();
+            _aboutDal.Delete(t);
         }
 
         public List<About> TGetList()
         {
-            throw new NotImplementedException();
+            return _aboutDal.GetList();
+        }
+
+        public About TGeyByID(int id)
+        {
+            return _aboutDal.GetByID(id);
         }
 
         public void TUpdate(About t)
         {
-            throw new NotImplementedException();
+           _aboutDal.Update(t);
         }
     }
 }
