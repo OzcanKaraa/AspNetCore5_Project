@@ -41,7 +41,7 @@ namespace BusinessLayer.Concrete
         public About TGeyByID(int id)
         {
             return _aboutDal.GetByID(id);
-        }
+        }   
 
         public void TUpdate(About t)
         {
