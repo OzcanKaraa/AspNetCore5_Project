@@ -9,8 +9,11 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfAboutDal:GenericRepository<About>,IAboutDal
+    public class EfAboutDal : GenericRepository<About>, IAboutDal
     {
-
+        public void GetByID()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
