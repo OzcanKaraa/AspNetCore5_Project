@@ -31,7 +31,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\Template\.github\workflows\main.yml" />
     <None Include="wwwroot\Template\assets\vendor\gulp-copy\node_modules\arr-diff\index.js" />
     <None Include="wwwroot\Template\assets\vendor\gulp-copy\node_modules\arr-union\index.js" />
     <None Include="wwwroot\Template\assets\vendor\gulp-copy\node_modules\array-slice\index.js" />
