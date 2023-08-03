@@ -27,3 +27,6 @@ Packege console içine :
 1-DataAcces seçilip Bağnatı adres Context sınıfı mevcut.
   Migraiton olusturma :  "add-migration mig1" 
   Migraiton Çalıştırma :  "update-database"
+  -----------------------------------------------------------------------------------------------------------
+
+ @await Html.PartialAsync("HeaderPartial"); // IndexPartial cagirma islemi 
