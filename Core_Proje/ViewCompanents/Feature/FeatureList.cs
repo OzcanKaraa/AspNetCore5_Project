@@ -9,7 +9,8 @@ namespace Core_Proje.ViewCompanents.Feature
         FeatureManager featureManager = new FeatureManager(new EfFeatureDal());
         public IViewComponentResult Invoke()
         {
-            return View();
+            var values = featureManager.TGetList();
+            return View(values);
         }
     }
 }
