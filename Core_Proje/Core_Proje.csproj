@@ -5,42 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\Template\css\bootstrap-icons\fonts\bootstrap-icons.woff2" />
-    <None Include="wwwroot\Template\css\bootstrap.min.css.map" />
-    <None Include="wwwroot\Template\css\font-awesome\webfonts\fa-brands-400.svg" />
-    <None Include="wwwroot\Template\css\font-awesome\webfonts\fa-brands-400.woff2" />
-    <None Include="wwwroot\Template\css\font-awesome\webfonts\fa-regular-400.svg" />
-    <None Include="wwwroot\Template\css\font-awesome\webfonts\fa-regular-400.woff2" />
-    <None Include="wwwroot\Template\css\font-awesome\webfonts\fa-solid-900.svg" />
-    <None Include="wwwroot\Template\css\font-awesome\webfonts\fa-solid-900.woff2" />
-    <None Include="wwwroot\Template\images\illustrations\building_websites.svg" />
-    <None Include="wwwroot\Template\images\illustrations\creative-team.svg" />
-    <None Include="wwwroot\Template\images\illustrations\development.svg" />
-    <None Include="wwwroot\Template\images\illustrations\hello.svg" />
-    <None Include="wwwroot\Template\images\illustrations\hello2.svg" />
-    <None Include="wwwroot\Template\images\illustrations\hello3.svg" />
-    <None Include="wwwroot\Template\images\illustrations\hello4.svg" />
-    <None Include="wwwroot\Template\images\illustrations\website-app.svg" />
-    <None Include="wwwroot\Template\images\illustrations\work-chat.svg" />
-    <None Include="wwwroot\Template\images\illustrations\work-together.svg" />
-    <None Include="wwwroot\Template\images\marker.svg" />
-    <None Include="wwwroot\Template\images\services\app-development.svg" />
-    <None Include="wwwroot\Template\images\services\full-stack.svg" />
-    <None Include="wwwroot\Template\images\services\graphic-design.svg" />
-    <None Include="wwwroot\Template\images\services\ui-ux.svg" />
-    <None Include="wwwroot\Template\images\services\web-design.svg" />
-    <None Include="wwwroot\Template\images\wave-bg.svg" />
-    <None Include="wwwroot\Template\scripts\aos.min.js" />
-    <None Include="wwwroot\Template\scripts\BigPicture.min.js" />
-    <None Include="wwwroot\Template\scripts\bootstrap.bundle.min.js" />
-    <None Include="wwwroot\Template\scripts\bootstrap.bundle.min.js.map" />
-    <None Include="wwwroot\Template\scripts\imagesloaded.pkgd.min.js" />
-    <None Include="wwwroot\Template\scripts\main.js" />
-    <None Include="wwwroot\Template\scripts\masonry.pkgd.min.js" />
-    <None Include="wwwroot\Template\scripts\purecounter.min.js" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
       <PrivateAssets>all</PrivateAssets>

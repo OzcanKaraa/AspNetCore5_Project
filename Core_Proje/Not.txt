@@ -36,3 +36,9 @@ Packege console içine :
 
   @foreach(var item in Model)
         {}
+
+
+
+		using BusinessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Mvc;
