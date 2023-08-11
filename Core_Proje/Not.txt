@@ -32,3 +32,7 @@ Packege console içine :
  @await Html.PartialAsync("HeaderPartial"); // IndexPartial cagirma islemi 
 
  ~/Template/
+
+
+  @foreach(var item in Model)
+        {}
