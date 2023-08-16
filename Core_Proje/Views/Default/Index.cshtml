@@ -6,9 +6,9 @@
   @await Html.PartialAsync("HeaderPartial")
   <body id="top">
     @await Html.PartialAsync("NavbarPartial")
-    @await Companent.InvokeAsync("FeatureList")
     <div class="page-content">
       <div id="content">
+            @await Companent.InvokeAsync("FeatureList")
 <div class="section pt-4 px-3 px-lg-4" id="about">
   <div class="container-narrow">
     <div class="row">
@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-                        <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100"><img class="~/Template/avatar img-fluid mt-2" src="~/Template/images/avatar.jpg" width="400" height="400" alt="Walter Patterson" /></div>
+<div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100"><img class="~/Template/avatar img-fluid mt-2" src="~/Template/images/avatar.jpg" width="400" height="400" alt="Walter Patterson" /></div>
     </div>
   </div>
 </div>
