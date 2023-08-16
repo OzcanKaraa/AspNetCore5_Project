@@ -27,18 +27,10 @@ Packege console içine :
 1-DataAcces seçilip Bağnatı adres Context sınıfı mevcut.
   Migraiton olusturma :  "add-migration mig1" 
   Migraiton Çalıştırma :  "update-database"
-  -----------------------------------------------------------------------------------------------------------
-
- @await Html.PartialAsync("HeaderPartial"); // IndexPartial cagirma islemi 
-
- ~/Template/
-
-
-  @foreach(var item in Model)
-        {}
-
-
-
-		using BusinessLayer.Concrete;
+--------------------------------------------------------------------------------------------------------------
+@await Html.PartialAsync("HeaderPartial"); // IndexPartial cagirma islemi 
+~/Template/
+@foreach(var item in Model){}
+using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
