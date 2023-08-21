@@ -24,4 +24,19 @@
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ViewCompanents\About\" />
+    <Folder Include="ViewCompanents\Experience\" />
+    <Folder Include="ViewCompanents\Portfolio\" />
+    <Folder Include="ViewCompanents\Testimonial\" />
+    <Folder Include="ViewCompanents\Service\" />
+    <Folder Include="ViewCompanents\Skill\" />
+    <Folder Include="Views\Shared\Components\ServiceList\" />
+    <Folder Include="Views\Shared\Components\SkillList\" />
+    <Folder Include="Views\Shared\Components\TestimonialList\" />
+    <Folder Include="Views\Shared\Components\PortfolioList\" />
+    <Folder Include="Views\Shared\Components\AboutList\" />
+    <Folder Include="Views\Shared\Components\ExperienceList\" />
+  </ItemGroup>
+
 </Project>
